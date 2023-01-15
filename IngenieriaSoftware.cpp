@@ -12,7 +12,7 @@ int aliveEnemies(bool* enemies, int size);
 int main()
 {
 	//init
-	int playerPos = 50;
+	int playerPos = 75;
 	bool playerDir = true;
 	int mapSize = 120;
 	char* map = new char[mapSize + 1];
