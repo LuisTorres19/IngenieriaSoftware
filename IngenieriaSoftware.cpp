@@ -14,7 +14,7 @@ int main()
 	//init
 	int playerPos = 25;
 	bool playerDir = true;
-	int mapSize = 100;
+	int mapSize = 120;
 	char* map = new char[mapSize + 1];
 	bool* enemies = new bool[mapSize];
 	bool* enemiesBuffer = new bool[mapSize];
