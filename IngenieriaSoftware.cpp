@@ -34,7 +34,7 @@ int main()
 		enemiesBuffer[i] = false;
 	}
 	map[mapSize] = '\0';
-	map[playerPos] = 'B';
+	map[playerPos] = 'A';
 
 	//update 
 	while (running)
