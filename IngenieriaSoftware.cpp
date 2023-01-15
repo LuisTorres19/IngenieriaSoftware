@@ -24,8 +24,8 @@ int main()
 	int enemyCount = 0;
 	bool running = true;
 
-	//float lastTime = (float)clock() / CLOCKS_PER_SEC;
-	//float deltaTime = 0.f;
+	float lastTime = (float)clock() / CLOCKS_PER_SEC;
+	float deltaTime = 0.f;
 
 	for (size_t i = 0; i < mapSize; i++)
 	{
